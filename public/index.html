@@ -458,7 +458,7 @@
                     </div>
 
                     <div class="contact-detail">
-                        <i class='bx bxs-map' ></i>
+                        <i class='bx bxs-map'></i>
                         <div class="detail">
                             <p>Pais</p>
                             <p>Ecuador - Quito</p>
@@ -467,16 +467,22 @@
                 </div>
 
                 <div class="contact-box">
-                    <form action="">
-                        <h2 class="heading">Contactame</h2>
+                    <form id="contact-form">
+                        <h2 class="heading">Contáctame</h2>
                         <div class="field-box">
-                            <input type="text" placeholder="Nombre Completo" required>
-                            <input type="email" placeholder="Email" required>
-                            <input type="text" placeholder="Telefono" required>
-                            <input type="text" placeholder="Asunto" required>
-                            <textarea name="" id="" placeholder="Tu Mensaje" required></textarea>
+                            <input type="text" name="name"
+                                placeholder="Nombre Completo" required>
+                            <input type="email" name="email" placeholder="Email"
+                                required>
+                            <input type="text" name="phone"
+                                placeholder="Teléfono" required>
+                            <input type="text" name="subject"
+                                placeholder="Asunto" required>
+                            <textarea name="message" placeholder="Tu Mensaje"
+                                required></textarea>
                         </div>
-                        <button type="submit" class="btn">Enviar Mensaje</button>
+                        <button type="submit" class="btn">Enviar
+                            Mensaje</button>
                     </form>
                 </div>
             </div>
