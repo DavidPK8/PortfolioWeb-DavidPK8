@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header>
+        <header class="active">
             <a href="#" class="logo">David</a>
 
             <i class='bx bx-menu' id="menu-icon"></i>
@@ -23,8 +23,17 @@
             </nav>
         </header>
 
+        <div class="bars-box active">
+            <div class="bar" style="--i:6"></div>
+            <div class="bar" style="--i:5"></div>
+            <div class="bar" style="--i:4"></div>
+            <div class="bar" style="--i:3"></div>
+            <div class="bar" style="--i:2"></div>
+            <div class="bar" style="--i:1"></div>
+        </div>
+
         <!-- Seccion Home -->
-        <section class="home">
+        <section class="home active">
             <div class="home-detail">
                 <h1>David Vallejo</h1>
                 <h2>Soy un
@@ -256,7 +265,7 @@
         </section>
 
         <!-- Seccion Proyectos -->
-        <section class="portfolio active">
+        <section class="portfolio">
             <h2 class="heading">Mis <span>Proyectos</span></h2>
             <div class="portfolio-container">
                 <div class="portfolio-box">
@@ -423,6 +432,52 @@
                         <button class="arrow-right"><i
                                 class='bx bx-chevron-right'></i></button>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion Contactame -->
+        <section class="contact">
+            <div class="contact-container">
+                <div class="contact-box">
+                    <h2>Trabajemos Juntos</h2>
+                    <div class="contact-detail">
+                        <i class='bx bxs-phone'></i>
+                        <div class="detail">
+                            <p>Telefono</p>
+                            <p>+593 992842628</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <i class='bx bxs-envelope'></i>
+                        <div class="detail">
+                            <p>Email</p>
+                            <p>alejodavicho8@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <i class='bx bxs-map' ></i>
+                        <div class="detail">
+                            <p>Pais</p>
+                            <p>Ecuador - Quito</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-box">
+                    <form action="">
+                        <h2 class="heading">Contactame</h2>
+                        <div class="field-box">
+                            <input type="text" placeholder="Nombre Completo" required>
+                            <input type="email" placeholder="Email" required>
+                            <input type="text" placeholder="Telefono" required>
+                            <input type="text" placeholder="Asunto" required>
+                            <textarea name="" id="" placeholder="Tu Mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
                 </div>
             </div>
         </section>
