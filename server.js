@@ -28,6 +28,7 @@ app.post("/send", async (req, res) => {
     to: process.env.MI_CORREO,
     subject: subject,
     html: `
+      <h1>Asunto: ${subject}</h1>
       <h2>Nuevo mensaje del portfolio</h2>
       <p><strong>Nombre:</strong> ${name}</p>
       <p><strong>Email:</strong> ${email}</p>
