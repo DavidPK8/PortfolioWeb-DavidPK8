@@ -1,3 +1,3 @@
 # Inicio
 
-![image](https://github.com/user-attachments/assets/2e74aff6-132d-428c-b386-6999d426b581)
+![image](https://github.com/user-attachments/assets/e68df7b8-125b-42be-bd37-3e8e7e40b621)
