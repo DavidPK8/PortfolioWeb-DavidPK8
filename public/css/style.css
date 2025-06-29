@@ -171,7 +171,9 @@ section.active {
 }
 
 @keyframes display-text {
-    25%,100% {
+
+    25%,
+    100% {
         display: none;
     }
 }
@@ -188,10 +190,14 @@ section.active {
 }
 
 @keyframes fill-text {
-    10%,100% {
+
+    10%,
+    100% {
         width: 0;
     }
-    70%,90% {
+
+    70%,
+    90% {
         width: 100%;
     }
 }
@@ -440,7 +446,7 @@ section.active {
     margin-bottom: 2rem;
 }
 
-.resume-detail.techSkills .resume-list{
+.resume-detail.techSkills .resume-list {
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     height: auto;
     overflow: visible;
@@ -481,7 +487,7 @@ section.active {
     transform: scale(1);
 }
 
-.resume-detail.softSkills .resume-list{
+.resume-detail.softSkills .resume-list {
     height: auto;
     overflow: visible;
 }
@@ -514,6 +520,7 @@ section.active {
 
 .portfolio-box p {
     font-size: 1.6rem;
+    text-align: justify;
 }
 
 .portfolio-box .tech {
@@ -586,14 +593,17 @@ section.active {
 }
 
 .portfolio-carousel .img-item {
-    height: inherit;
+    width: 100%;       
+    height: 100%;
+    overflow: hidden;
+    border-radius: 1rem;
 }
 
 .portfolio-carousel .img-item img {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     border-radius: 1rem;
 }
 
@@ -780,7 +790,7 @@ section.active {
     }
 
     .portfolio-container .portfolio-box:first-child {
-        order: 1;   
+        order: 1;
     }
 
     .contact-box .field-box {
@@ -806,6 +816,7 @@ section.active {
 }
 
 @media screen and (max-width: 400px) {
+
     .home-detail,
     .resume-box h2,
     .resume-box .heading,
