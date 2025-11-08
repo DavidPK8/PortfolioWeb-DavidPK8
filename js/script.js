@@ -97,8 +97,6 @@ const activePortfolio = () => {
     portfolioDetails[index].classList.add('active');
 }
 
-console.log(imgItem.length - 2);
-
 arrowRight.addEventListener('click', () => {
     if (index < (imgItem.length - 2)) {
         arrowLeft.classList.remove('disabled');
